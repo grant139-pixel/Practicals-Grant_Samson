@@ -1,0 +1,47 @@
+#Created by Grant Samson
+#workig with list
+#list funtions to add elements==> append(), insert()
+#remove elements ==> remove(),pop()
+#other list functions:
+    #sort(), reverse()
+
+mylist=[]
+
+mylist.append("Grant")
+Length= len(mylist)
+mylist.insert(0,"Willem")
+mylist[1]="Aiden"
+mylist.append("Sir")
+mylist.append("Lucin")
+
+#to remmove items
+#mylist.pop()
+#mylist.remove()
+
+print(mylist[0])
+
+#length of index
+
+print(Length)
+
+#mylist.extend(mylist)
+#for x in mylist:
+ #   print(x)
+
+#itterating through the list
+#x is the local variable for the loop
+#for and in are the keywords
+
+#iteration- goes through the loop
+#if x = Lucin- print ("Lucin is in class")
+
+#class activity
+for x in mylist:
+   if x== "Willem":
+    print("Willem is in Class")
+    #break
+    #continue goes through first iteration and prints and continues looking for the statement
+print(x)
+
+#you use break to stop a loop or loops
+
