@@ -1,0 +1,57 @@
+body{
+    background-color: white !important;
+}
+
+/*this styles all paragraphs with the class paragraph and with class you use .ClassName*/
+.paragraph{
+    background-color: green;
+    color: white;
+}
+
+/*this is when you need to style id, you use this, it will style all ids with the first_heading id and with ids you use #*/
+#first_heading{
+    color: blue;
+    display: inline;
+}
+
+/* Inline allows block elements to be next to each other*/
+#Inlinepara{
+    display: inline;
+}
+
+/*Removes the numbering for ordered lists(list-style: none;)*/
+.links{
+    list-style: none;
+    
+}
+
+/*This means you are looking for any class named links, then looks for any list within that link/*
+/*display inline puts the links next to each other*/
+/*Mrgins is the space outside the links border(making space in between each links example)*/
+.links li{
+    background-color: aqua;
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+/*The text-decoration: none;  removes the underline on the links*/
+/*Padding is the space within the links border(the box around the links examples*/
+/*border-radius, allows for your corners to be rounded*/
+a{
+    background-color: blue;
+    text-decoration: none;
+    padding: 7px;
+    color: white;
+    border-radius: 30%;
+}
+
+#scroll{
+    background-color: blue;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 100%;
+}

@@ -1,0 +1,31 @@
+nav{
+    background-color: blue;
+}
+.navlinks{
+    text-decoration: none;
+    color: white;
+    text-align: right;}
+ 
+.section1{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    }
+.section2{
+    background-color: rgb(231, 199, 231);
+}
+ 
+footer{
+    background-color: rgb(6, 17, 81);
+    color: white;
+}
+ 
+#scroll{
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 100%;
+    padding: 15px;}

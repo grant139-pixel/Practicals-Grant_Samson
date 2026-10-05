@@ -1,0 +1,21 @@
+/* left side tableleft should have a light green backgrouynd colour
+ right side should have a light gray background colour 
+ Collapse the tableborder so it has a single liner
+ 
+ */
+
+#tableleft{
+    background-color: rgb(170, 255, 170);
+}
+
+#tableright{
+    background-color: rgb(235, 235,235);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+#message {
+    resize: none;
+}

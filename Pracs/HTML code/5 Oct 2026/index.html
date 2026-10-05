@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML  Form</title>
+    <link rel="stylesheet" href="myCSS.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" target="_self">Home</a>
+        <a href="#" target="_self">Contact Us</a>
+    </nav>
+    <table border width="50%">
+        <tr>
+            <td id="tableleft">
+                <form action="" method="POST">
+                    <table>
+                        <tr>
+                            <td colspan="2">
+                                Event Registration
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" id="name" name="name" placeholder="Name">
+                            </td>
+                            <td>
+                                <input type="text" id="surname" name="surname" placeholder="Surname">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="date" id="dob" name="dob" placeholder="DOB">
+                            </td>
+                            <td>
+                                <select name="Course" id="Course">
+                                    <option value="default">#Select Course</option>
+                                    <option value="softdev">Software Developer</option>
+                                    <option value="SE">Software Engineer</option>
+                                    <option value="Cyber">Cyber Security</option>
+                                    <option value="BBA">Bach. of Business Admin</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <label for="gender">Gender: </label> &nbsp;
+                                <label>Male</label><input type="radio" name="gender" id="Male" value="Male"> &nbsp;
+                                <label>Female</label><input type="radio" name="gender" id="Female" value="Female"> &nbsp;
+                                <label>Prefer not to say</label><input type="radio" name="gender" id="Other" value="Other">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="favefood">Favrite Food</label>
+                            </td>
+                            <td>
+                                <fieldset>
+                                    <legend>Favourite Foods</legend>
+                                    <label for="pizza">Pizza</label><input type="checkbox" id="pizza" name="pizza" value="pizza"> &nbsp;
+                                    <label for="Cereal">Cereal</label><input type="checkbox" id="Cereal" name="Cereal" value="Cereal"> &nbsp;
+                                    <br>
+                                    <label for="Papwors">Papwors</label><input type="checkbox" id="Papwors" name="Papwors" value="Papwors"> &nbsp;
+                                    <label for="Porkchops">Porkcops</label><input type="checkbox" id="Porkchops" name="Porkchops" value="Porkchops">
+                                </fieldset>
+
+                                <fieldset>
+                                    <legend>Favourite Snacks</legend>
+                                    <label for="doritos"></label><input type="checkbox" name="doritos" id="doritos" value="doritos">
+                                    <label for="Biltong"></label><input type="checkbox" name="Biltong" id="Biltong" value="Biltong">
+                                </fieldset>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="">
+                                <textarea name="message" id="message" placeholder="message"></textarea>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="reset" value="RESET"></td>
+                            <td><input type="submit" value="SUBMIT"></td>
+                        </tr>
+
+                    </table>
+                </form>
+            </td>
+            <td id="tableright" width="50%">
+                <img src="images.jpg" alt="Camera" title="Camera">
+            </td>
+        </tr>
+
+    </table>
+</body>
+</html>
