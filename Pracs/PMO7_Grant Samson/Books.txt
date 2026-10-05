@@ -1,0 +1,26 @@
+Master of Mankind,GW,FK-0000005634,False
+Horus Rising,GW,BL-0000001102,True
+False Gods,GW,BL-0000001103,True
+Galaxy in Flames,GW,BL-0000001104,True
+The Flight of the Eisenstein,GW,BL-0000001105,True
+Fulgrim,GW,BL-0000001106,True
+Descent of Angels,GW,BL-0000001107,False
+Legion,GW,BL-0000001108,True
+Battle for the Abyss,GW,BL-0000001109,False
+Mechanicum,GW,BL-0000001110,True
+A Thousand Sons,GW,BL-0000001111,True
+Prospero Burns,GW,BL-0000001112,True
+The First Heretic,GW,BL-0000001113,True
+Know No Fear,GW,BL-0000001114,True
+Fear to Tread,GW,BL-0000001115,False
+Angel Exterminatus,GW,BL-0000001116,True
+Betrayer,GW,BL-0000001117,True
+The Unremembered Empire,GW,BL-0000001118,True
+Scars,GW,BL-0000001119,True
+Vengeful Spirit,GW,BL-0000001120,False
+The Path of Heaven,GW,BL-0000001121,True
+Dune,CHU,DP-0000000001,True
+Neuromancer,ACE,DP-0000000002,True
+The Hobbit,HMH,DP-0000000003,True
+The Fellowship of the Ring,HMH,DP-0000000004,True
+The Two Towers,HMH,DP-0000000005,False
