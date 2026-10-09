@@ -1,0 +1,44 @@
+.image {
+    width: 150px;         
+    height: 150px;
+    border-radius: 50%;    
+    object-fit: cover;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+body{
+    margin: 40px auto;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    min-height: 50vh;
+    border-radius: 4%;
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border: blue;
+    background-color: blue;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a:hover{
+    color: blue;
+    background-color: lightgrey;
+}
+
+i{
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+}
